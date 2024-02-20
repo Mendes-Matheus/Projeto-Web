@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('1657854033449.jpg');
+  background-size: cover;
+  background-attachment: fixed; /* Para manter o plano de fundo fixo */
+  color: #fff;
+  font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.8) 100%);
+  pointer-events: none; /* Permite que os elementos por trás sejam clicáveis */
+  z-index: -1; /* Coloca o gradiente atrás do conteúdo */
+}
+
+
+.custom-section {
+  font-weight: bolder;
+  padding: 1em;
+  display:contents;
+}
+
+.header_desc {
+  /* max-width:max-content; */
+  /* max-height:fit-content; */
+  margin:auto;
+  padding: 0.5em;
+  /* padding-block: 0.5em; */
+  /* padding-inline: 2em; */ /*adiciona um padding antes e depois do texto */
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(255, 255, 255, 0.5);
+}
+
+.content {
+  border: 0.01em ridge #ffffff7c;
+  margin:auto;
+  padding: 1em;
+  border-radius: 1em; 
+  border: 30em, solid, #fff;
+  box-shadow: 0 0 1em rgba(255, 255, 255, 0.438);
+  background-color: black; /* Cor de fundo da seção */
+  max-width: 42em; /* Largura máxima do conteúdo */
+  margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+}
+
+a {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center; 
+}
+
+.lista-footer {
+  list-style-type: none; /* Remove os marcadores padrão da lista */
+  padding: 2rem; /* Remove o espaçamento interno */
+  margin: 0 auto; /* Centraliza a lista horizontalmente */
+}
+
+h1 {
+  text-align: center;
+  color: white; /* Cor do título */
+}
+
+h2 {
+  text-align: center;
+  color: white; /* Cor do título */
+  font-weight: 900;
+}
+  
+p {
+  text-align: center;
+  font-weight: 200;
+  font-size: .9em ;
+  color: white; /* Cor do texto */
+}
+
+
+/* Estilos para esconder todas as imagens por padrão */
+.mySlides {
+  display: none;
+}
+
+/* Estilos para os controles de navegação (setas) */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
