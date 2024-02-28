@@ -1,0 +1,83 @@
+.movie-classification {
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 1em;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    width: fit-content;
+    margin: 1em auto;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+
+.movie-genre {
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: rgb(28, 173, 84);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 1em;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    width: fit-content;
+    margin: 1em auto;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+
+.movie-time {
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: rgb(28, 173, 84);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 1em;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    width: fit-content;
+    margin: 1em auto;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+
+.mais-informacoes {
+    margin: 1em 1em;
+    padding: 0 1em;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+
+.h2-filme {
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.h3-filme {
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+}
+
+.p-info-filme {
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    line-height: 2;
+    text-align: left;
+    padding: auto;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
