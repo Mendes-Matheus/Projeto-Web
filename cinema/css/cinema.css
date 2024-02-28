@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    /* background-image: url('/02\ -\ Curso\ Bootstrap/aula-bootstrap/img/1657854033449.jpg'); */
+    background-size: cover;
+    background-attachment: fixed; /* Para manter o plano de fundo fixo */
+    color: #000000;
+    font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: inherit; /* Mantém a cor padrão do texto do elemento pai */
+}
+
+/* p{
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+} */
+
+  
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+  
+
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(to bottom, rgba(3, 3, 3, 0.829) 0%,rgba(0,0,0,0.8) 100%); */
+    pointer-events: none; /* Permite que os elementos por trás sejam clicáveis */
+    z-index: -1; /* Coloca o gradiente atrás do conteúdo */
+}
+
+.navbar {
+    background-color: #000;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+
+#text-brand {
+    font-size: xx-large;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    text-align: right;
+    color: #fff !important;
+    letter-spacing: 4px;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.invert-image {
+    filter: invert(100%);
+}
+
+/* .centralize-image {
+    display: block;
+    margin: auto;
+} */
+
+.container-padding {
+    padding: 30px 120px 60px 120px;
+    border: #fff 0.5px solid;
+    /* border-radius: 20px; */
+    margin: 0px 0px 0px 0px;
+    /* background-color: rgba(0, 0, 0, 0.164); */
+}
+
+.quemsomos{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.parceiros {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.centralize-itens-col {
+    /* width: 30%; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    /* Defina largura e altura máxima da coluna se desejar */
+    /* width: 100%; */
+    /* max-width: 400px; Por exemplo */
+    /* height: 300px; Por exemplo */
+    /* border: 1px solid #ccc; Apenas para visualização */
+}
+
+.width-row{
+    width: 35%;
+    margin: auto;
+    padding: 0.5em;
+}
+
+.footer {
+    margin: 3em;
+    color: #000000;
+}
+
+.ul-navbar {
+    margin-left: 3rem;
+}
+
+.li-navbar {
+    text-align: right;
+}
+
+.borda {
+    border-color: yellow;
+    border-style: dotted;
+}
+
+.padding-top {
+    padding-top: 1em;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.empresas-parceiras {
+    background-color: rgba(196, 208, 219, 0.363);
+    border: none;
+    margin: 0;
+}
+
+.remove-bg {
+    mix-blend-mode: multiply;
+}
+
+.footerr {
+    background-color: rgba(196, 208, 219, 0.658);
+    padding: 1em;
+}
+
+.container-cinema-flex {
+    display: flex;
+  }
+  
+.column-cinema-flex {
+    flex: 1; /* Faz as colunas ocuparem o mesmo espaço */
+    padding: 1em;
+    margin-top: 1em;
+    border: none;
+}
+
+.filme-title{
+    padding: 10px 0px;
+    font-size: 13px;
+    text-align: left;
+    color: #054663;
+    font-weight: 700;
+}
