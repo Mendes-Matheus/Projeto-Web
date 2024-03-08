@@ -1,14 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    /* background-image: url('/02\ -\ Curso\ Bootstrap/aula-bootstrap/img/1657854033449.jpg'); */
-    background-size: cover;
-    background-attachment: fixed; /* Para manter o plano de fundo fixo */
-    color: #000000;
-    font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
-}
-
 a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: inherit; /* Mantém a cor padrão do texto do elemento pai */
@@ -29,7 +18,11 @@ h1 {
     align-items: center;
     padding: 0.5em;
 }
-  
+
+.head_text {
+    color: #fff; 
+    /* filter: invert(100%); */
+}
 
 body:before {
     content: "";
@@ -43,141 +36,68 @@ body:before {
     z-index: -1; /* Coloca o gradiente atrás do conteúdo */
 }
 
-.navbar {
-    background-color: #000;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    color: #fff;
-    font-size: 12px !important;
-    letter-spacing: 4px;
-    opacity: 0.9;
-}
-
-#text-brand {
-    font-size: xx-large;
-}
-
-.navbar li a, .navbar .navbar-brand {
-    text-align: right;
-    color: #fff !important;
-    letter-spacing: 4px;
-}
-
-.navbar-nav li a:hover {
-    color: #fff !important;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.invert-image {
-    filter: invert(100%);
-}
-
-/* .centralize-image {
-    display: block;
-    margin: auto;
-} */
-
-.container-padding {
-    padding: 30px 120px 60px 120px;
-    border: #fff 0.5px solid;
-    /* border-radius: 20px; */
-    margin: 0px 0px 0px 0px;
-    /* background-color: rgba(0, 0, 0, 0.164); */
-}
-
-.quemsomos{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.parceiros {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.centralize-itens-col {
-    /* width: 30%; */
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5em;
-    /* Defina largura e altura máxima da coluna se desejar */
-    /* width: 100%; */
-    /* max-width: 400px; Por exemplo */
-    /* height: 300px; Por exemplo */
-    /* border: 1px solid #ccc; Apenas para visualização */
-}
-
 .width-row{
     width: 35%;
     margin: auto;
     padding: 0.5em;
 }
 
-.footer {
-    margin: 3em;
-    color: #000000;
-}
-
-.ul-navbar {
-    margin-left: 3rem;
-}
-
-.li-navbar {
-    text-align: right;
-}
-
-.borda {
-    border-color: yellow;
-    border-style: dotted;
-}
-
-.padding-top {
-    padding-top: 1em;
-}
-
-.no-padding {
-    padding: 0;
-}
-
-.empresas-parceiras {
-    background-color: rgba(196, 208, 219, 0.363);
-    border: none;
-    margin: 0;
-}
-
-.remove-bg {
-    mix-blend-mode: multiply;
-}
-
-.footerr {
-    background-color: rgba(196, 208, 219, 0.658);
-    padding: 1em;
-}
-
 .container-cinema-flex {
     display: flex;
   }
   
-.column-cinema-flex {
-    flex: 1; /* Faz as colunas ocuparem o mesmo espaço */
+/* .column-cinema-flex {
+    flex: 1; 
     padding: 1em;
     margin-top: 1em;
     border: none;
-}
+} */
 
 .filme-title{
     padding: 10px 0px;
     font-size: 13px;
-    text-align: left;
-    color: #054663;
+    text-align: center;
+    color: #000000;
     font-weight: 700;
+}
+
+.justify-contents {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.all-filmes {
+    /* background-color: #000000; */
+    background: linear-gradient(180deg, #131313ef 46%, #cececece 100%);
+    /* width: 100%; */
+	/* height: 100vh; */
+	/* display: flex; */
+	/* align-items: center; */
+}
+
+
+/* -------------------------------------------------------------------- */
+
+.card_wrapper {
+	background: #575757;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }

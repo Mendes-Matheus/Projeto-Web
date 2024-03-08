@@ -1,12 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-color: #ffffff; */
+    /* background: linear-gradient(180deg, #131313ef 46%, #cececece 100%); */
     /* background-image: url('/02\ -\ Curso\ Bootstrap/aula-bootstrap/img/1657854033449.jpg'); */
-    background-size: cover;
+    /* background-size:contain; */
     background-attachment: fixed; /* Para manter o plano de fundo fixo */
     /* color: #000000; */
     font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
+}
+
+.backgroundColorGradiente {
+    background: linear-gradient(180deg, black 30%, #f0f0f0ce 100%);
 }
 
 
@@ -48,12 +52,12 @@ body:before {
 }
 
 .navbar {
-    background-color: #000;
+    background-color: #000000;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     color: #fff;
-    font-size: 12px !important;
+    font-size: 14px !important;
     letter-spacing: 4px;
     opacity: 0.9;
 }
@@ -129,8 +133,8 @@ body:before {
 }
 
 .footer {
-    margin: 3em;
-    color: #000000;
+    padding: 2em;
+    font-size: 5px;
 }
 
 .ul-navbar {
@@ -151,18 +155,12 @@ body:before {
 }
 
 .empresas-parceiras {
-    background-color: rgba(196, 208, 219, 0.363);
     border: none;
     margin: 0;
 }
 
 .remove-bg {
     mix-blend-mode: multiply;
-}
-
-.footerr {
-    background-color: rgba(196, 208, 219, 0.658);
-    padding: 1em;
 }
 
 .container-cinema-flex {
@@ -231,4 +229,16 @@ body:before {
       flex-basis: 100%;
       flex-grow: 0; 
     }
+}
+
+.backgroundColorSection {
+	background: linear-gradient(180deg, #161616f8 70%, #cecece 100%);
+}
+
+.card_wrapper {
+	background: linear-gradient(180deg, #131313ef 46%, #cececece 100%);
+	/* width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center; */
 }

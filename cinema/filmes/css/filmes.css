@@ -58,15 +58,26 @@
 
 .h2-filme {
     font-size: 30px;
-    letter-spacing: 1.1px;
-    line-height: 1.8;
     text-align: center;
 }
 
 .h3-filme {
     font-size: 25px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #ffffff;
     letter-spacing: 1.1px;
     line-height: 1.8;
+    
+}
+
+.sinopse {
+    font-size: .9em;
+    font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: justify;
 }
 
 .p-info-filme {
@@ -80,4 +91,27 @@
 
 li {
     list-style: none;
+}
+
+.mais-informacoes {
+    color: #ffffff;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+    text-align: center;
+    margin: 1em 1em;
+    padding: 0 1em
+}
+
+.li-filme {
+    color: #ffffff;
+    
+}
+
+p {
+    color: #ffffff;
+    letter-spacing: 1.1px;
+    line-height: 1.8;
+    text-align: left;
+    padding: auto;
+    margin: 0 auto;
 }

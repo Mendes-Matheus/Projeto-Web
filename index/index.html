@@ -4,6 +4,8 @@
     <head>
         <meta charset="utf-8">
         <title>Nordeste Shopping</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
@@ -11,16 +13,23 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Grandiflora One">
 
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="../index/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+
+
+        <link rel="stylesheet" type="text/css" href="../index/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../index/css/index.css">
+
+        <link href="../index/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../index/css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+        <link href="../index/css/style.css" rel="stylesheet" type="text/css" />
     </head>
 
-    <body>
+    <body class="backgroundColorGradiente">
 
         <!-- Inicio da barra de navegação do site -->
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm navbar-light">
             <a class="invert-image" 
-                href="#"><img src="icons/nordeste-shopping.png" alt="logo-cactus" width="200px">
+                href="../index/index.html"><img src="../index/icons/nordeste-shopping.png" alt="logo-nordeste-shopping" width="200px">
             </a>
             <div class="collapse navbar-collapse borda-branca">
                 <ul class="navbar-nav ul-navbar">
@@ -34,14 +43,29 @@
         <!-- Fim da barra de navegação do site -->
     
         <!-- Inicio do banner -->
-        <section>
-            <div class="container">
-                <div>
-                    <div>
-                        <img src="img/pexels-zhang-kaiyv-5659352.jpg" alt="shopping center" width="100%">
+        <section class="">
+
+            <div class="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="owl-carousel slider_carousel">
+                                <div>
+                                    <img src="../index/img/pexels-zhang-kaiyv-5659352.jpg" alt="shopping center" width="80%">
+                                </div>
+                                <div>
+                                    <img src="../index/img/pexels-zhang-kaiyv-5659352.jpg" alt="shopping center" width="80%">
+                                </div>
+                                <div>
+                                    <img src="../index/img/pexels-zhang-kaiyv-5659352.jpg" alt="shopping center" width="80%">
+                                </div>
+                            </div>
+                          
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- card area end -->
         </section>
         <!-- Fim do banner -->
 
@@ -51,39 +75,76 @@
                 <div class="container-fluid padding-top">
                     <p>No Nordeste Shopping são mais de 200 lojas de vários segmentos, como moda, eletrônicos, alimentação, serviços e variedades.</p>
                 </div>
-                <div>
-                    <div class="row width-row col-md-12">
-
-                        <div class="col-md-2 centralize-itens-col">
-                            <img class="centralize-image remove-bg" src="icons/chico-rei-logo.png" alt="chico-rei-logo" width="50em">
-                        </div>
-                        <div class="col-md-2 centralize-itens-col">
-                            <img class="centralize-image remove-bg" src="icons/coca-cola-logo-svgrepo-com.svg" alt="coca-cola-logo" width="50em">
-                        </div>
-                        <div class="col-md-2 centralize-itens-col">
-                            <img class="centralize-image remove-bg" src="icons/adidas-4-logo-svgrepo-com.svg" alt="adidas-logo" width="50em">
-                        </div>
-                        <div class="col-md-2 centralize-itens-col">
-                            <img class="centralize-image remove-bg" src="icons/mcdonalds.png"  alt="mcdonalds-logo" width="50em">
-                        </div>
-                        <div class="col-md-2 centralize-itens-col">
-                            <img class="centralize-image remove-bg" src="icons/marlboro-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
-                        </div>
-                        <div class="col-md-2 centralize-itens-col">
-                            <img class="centralize-image remove-bg" src="icons/ray-ban-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
-                        </div>
-
+                <div class="row justify-content-center"> <!-- Adicionando a classe justify-content-center para centralizar os itens horizontalmente -->
+                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
+                        <img class="centralize-image remove-bg" src="../index/icons/chico-rei-logo.png" alt="chico-rei-logo" width="50em">
                     </div>
-                    <!-- mais icones disponiveis em: https://www.svgrepo.com/collection/company-logo/ -->
+                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
+                        <img class="centralize-image remove-bg" src="../index/icons/coca-cola-logo-svgrepo-com.svg" alt="coca-cola-logo" width="50em">
+                    </div>
+                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
+                        <img class="centralize-image remove-bg" src="../index/icons/adidas-4-logo-svgrepo-com.svg" alt="adidas-logo" width="50em">
+                    </div>
+                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
+                        <img class="centralize-image remove-bg" src="../index/icons/mcdonalds.png"  alt="mcdonalds-logo" width="50em">
+                    </div>
+                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
+                        <img class="centralize-image remove-bg" src="../index/icons/marlboro-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
+                    </div>
+                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
+                        <img class="centralize-image remove-bg" src="../index/icons/ray-ban-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
+                    </div>
                 </div>
+                <!-- mais icones disponiveis em: https://www.svgrepo.com/collection/company-logo/ -->
             </div>
-            
         </selection>
+        
         <!-- Fim da selection com as lojas presentes no shopping-->
 
-        <footer class="footerr text-center">
+        <footer class="footer">
             <p>Desenvolvido por Matheus Mendes</p>
         </footer>
+
+        <!-- all js here -->
+        <script src="../index/js/jquery-3.4.1.min.js"></script>
+        <script src="../index/js/bootstrap.min.js"></script>
+        <script src="../index/js/owl.carousel.min.js"></script>
+        <script>
+            
+            function slider_carouselInit() {
+                $('.owl-carousel.slider_carousel').owlCarousel({
+                    dots: true,
+                    loop: true,
+                    margin: 25,
+                    stagePadding: 2,
+                    autoplay: true,
+                    nav: true,
+                    navText: ["&#10094;","&#10095;"],   
+                    autoplayTimeout: 2500,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 1
+                        },
+                        1200: {
+                            items: 1
+                        },
+                        1500: {
+                            items: 1
+                        }
+                        
+                    }
+                });
+            }
+            slider_carouselInit();
+    
+        </script>
 
 
     </body>
