@@ -37,7 +37,7 @@ h1 {
     align-items: center;
     padding: 0.5em;
 }
-  
+
 
 body:before {
     content: "";
@@ -83,6 +83,14 @@ body:before {
 .invert-image {
     filter: invert(100%);
 }
+
+.trailer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+
 
 .img-logotipo {
     display: flex;
@@ -186,54 +194,6 @@ body:before {
 }
 
 
-/* -------------------------------------- */
-
-.container-filme {
-    display: grid;
-    grid-template-columns: 1fr 5fr; /* Define três colunas com a mesma largura */
-    grid-gap: 10px; /* Define um espaçamento entre as colunas */
-}
-    /* display: flex;
-    flex-wrap: wrap; Permite que os itens flexíveis quebrem para a próxima linha */
-/* } */
-  
-.column-filme {
-    padding: 10px;
-    border: none;
-    box-sizing: border-box;
-}
-  
-.column-capa {
-    /* flex-grow: 1; A primeira coluna vai ocupar todo o espaço disponível */
-    padding: 10px;
-    border: none;
-}
-  
-.column-conteudo {
-    padding: 10px;
-    border: none;
-}
-
-.p-conteudo {
-    font-size: .9em;
-    font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
-
-    font-weight: 500;
-    color: #000000;
-    text-align: justify;
-}
-  
-/* Media query para tornar o layout responsivo */
-@media screen and (max-width: 768px) {
-    .column-filme {
-      flex-basis: 100%;
-      flex-grow: 0; 
-    }
-}
-
-.backgroundColorSection {
-	background: linear-gradient(180deg, #161616f8 70%, #cecece 100%);
-}
 
 .card_wrapper {
 	background: linear-gradient(180deg, #131313ef 46%, #cececece 100%);

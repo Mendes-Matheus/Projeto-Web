@@ -59,7 +59,10 @@
 .h2-filme {
     font-size: 30px;
     text-align: center;
+    padding-left: 1em;
 }
+
+
 
 .h3-filme {
     font-size: 25px;
@@ -104,7 +107,9 @@ li {
 
 .li-filme {
     color: #ffffff;
-    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 p {
@@ -115,3 +120,75 @@ p {
     padding: auto;
     margin: 0 auto;
 }
+
+
+/* -------------------------------------- */
+
+.container-capa-sinopse {
+    display: grid;
+    grid-template-columns: 1fr 5fr; 
+    grid-gap: 10px; /* Define um espaçamento entre as colunas */
+}
+
+
+.container-info-trailer {
+    display: grid;
+    grid-template-columns: 2fr 3fr; /* Define duas colunas com a mesma largura */
+    grid-gap: 10px; /* Define um espaçamento entre as colunas */
+}
+
+.column-filme {
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.info-filme {
+    font-size: 30px;
+    text-align: center;
+}
+  
+.column-capa {
+    /* flex-grow: 1; A primeira coluna vai ocupar todo o espaço disponível */
+    padding: 10px;
+    border: none;.info-filme
+    font-size: 30px;.info-filme 
+    font-size: 30px;
+    text-align: left;
+}
+
+.trailer-font {
+    color: #fff;
+    font-size: 30px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    text-align: left;
+    /* padding-left: 8rem; */
+}
+  
+.column-conteudo {
+    padding: 10px;
+    border: none;
+}
+
+.p-center {
+    text-align: left;
+}
+
+.p-conteudo {
+    font-size: .9em;
+    font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
+
+    font-weight: 500;
+    color: #000000;
+    text-align: justify;
+}
+  
+/* Media query para tornar o layout responsivo */
+@media screen and (max-width: 768px) {
+    .column-filme {
+      flex-basis: 100%;
+      flex-grow: 0; 
+    }
+}
+

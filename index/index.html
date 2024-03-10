@@ -21,6 +21,7 @@
 
         <link href="../index/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../index/css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+        <link href="../index/css/oun.carousel.brand.css" rel="stylesheet" type="text/css" />
         <link href="../index/css/style.css" rel="stylesheet" type="text/css" />
     </head>
 
@@ -75,30 +76,33 @@
                 <div class="container-fluid padding-top">
                     <p>No Nordeste Shopping são mais de 200 lojas de vários segmentos, como moda, eletrônicos, alimentação, serviços e variedades.</p>
                 </div>
-                <div class="row justify-content-center"> <!-- Adicionando a classe justify-content-center para centralizar os itens horizontalmente -->
-                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
-                        <img class="centralize-image remove-bg" src="../index/icons/chico-rei-logo.png" alt="chico-rei-logo" width="50em">
+                <div>
+                    <div class="row width-row col-md-12">
+                        
+                        <div class="col-md-2 centralize-itens-col">
+                            <img class="centralize-image remove-bg" src="icons/chico-rei-logo.png" alt="chico-rei-logo" width="50em">
+                        </div>
+                        <div class="col-md-2 centralize-itens-col">
+                            <img class="centralize-image remove-bg" src="icons/coca-cola-logo-svgrepo-com.svg" alt="coca-cola-logo" width="50em">
+                        </div>
+                        <div class="col-md-2 centralize-itens-col">
+                            <img class="centralize-image remove-bg" src="icons/adidas-4-logo-svgrepo-com.svg" alt="adidas-logo" width="50em">
+                        </div>
+                        <div class="col-md-2 centralize-itens-col">
+                            <img class="centralize-image remove-bg" src="icons/mcdonalds.png"  alt="mcdonalds-logo" width="50em">
+                        </div>
+                        <div class="col-md-2 centralize-itens-col">
+                            <img class="centralize-image remove-bg" src="icons/marlboro-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
+                        </div>
+                        <div class="col-md-2 centralize-itens-col">
+                            <img class="centralize-image remove-bg" src="icons/ray-ban-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
+                        </div>
                     </div>
-                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
-                        <img class="centralize-image remove-bg" src="../index/icons/coca-cola-logo-svgrepo-com.svg" alt="coca-cola-logo" width="50em">
-                    </div>
-                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
-                        <img class="centralize-image remove-bg" src="../index/icons/adidas-4-logo-svgrepo-com.svg" alt="adidas-logo" width="50em">
-                    </div>
-                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
-                        <img class="centralize-image remove-bg" src="../index/icons/mcdonalds.png"  alt="mcdonalds-logo" width="50em">
-                    </div>
-                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
-                        <img class="centralize-image remove-bg" src="../index/icons/marlboro-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
-                    </div>
-                    <div class="col-6 col-md-2 centralize-itens-col"> <!-- Modificando de col-md-2 para col-6 -->
-                        <img class="centralize-image remove-bg" src="../index/icons/ray-ban-logo-svgrepo-com.svg" alt="malboro-logo" width="50em">
-                    </div>
+                    <!-- mais icones disponiveis em: https://www.svgrepo.com/collection/company-logo/ -->
                 </div>
-                <!-- mais icones disponiveis em: https://www.svgrepo.com/collection/company-logo/ -->
             </div>
+            
         </selection>
-        
         <!-- Fim da selection com as lojas presentes no shopping-->
 
         <footer class="footer">
@@ -113,7 +117,7 @@
             
             function slider_carouselInit() {
                 $('.owl-carousel.slider_carousel').owlCarousel({
-                    dots: true,
+                    dots: false,
                     loop: true,
                     margin: 25,
                     stagePadding: 2,
@@ -125,27 +129,14 @@
                     responsive: {
                         0: {
                             items: 1
-                        },
-                        600: {
-                            items: 1
-                        },
-                        1000: {
-                            items: 1
-                        },
-                        1200: {
-                            items: 1
-                        },
-                        1500: {
-                            items: 1
                         }
                         
                     }
                 });
             }
             slider_carouselInit();
-    
-        </script>
 
+            </script>
 
     </body>
 
