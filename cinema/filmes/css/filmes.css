@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .movie-classification {
     border: 1px solid #000000;
     color: #ffffff;
@@ -68,16 +71,8 @@
     font-size: 25px;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    color: #ffffff;
-    letter-spacing: 1.1px;
-    line-height: 1.8;
-    
-}
-
 .sinopse {
     font-size: .9em;
-    font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
     font-weight: 500;
     color: #ffffff;
     text-align: justify;
@@ -125,6 +120,7 @@ p {
 /* -------------------------------------- */
 
 .container-capa-sinopse {
+
     display: grid;
     grid-template-columns: 1fr 5fr; 
     grid-gap: 10px; /* Define um espaçamento entre as colunas */
@@ -151,8 +147,8 @@ p {
 .column-capa {
     /* flex-grow: 1; A primeira coluna vai ocupar todo o espaço disponível */
     padding: 10px;
-    border: none;.info-filme
-    font-size: 30px;.info-filme 
+    border: none;
+    font-size: 30px; 
     font-size: 30px;
     text-align: left;
 }
@@ -177,8 +173,6 @@ p {
 
 .p-conteudo {
     font-size: .9em;
-    font-family: Montserrat, Caveat, Pacifico, Lobster, Sofia;
-
     font-weight: 500;
     color: #000000;
     text-align: justify;

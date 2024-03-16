@@ -44,13 +44,6 @@ section {
 	padding: 0;
 }
 
-body {
-	line-height: 26px;
-	background: #ffffff;
-	color: #ffffff;
-	font-family: bromega-Regular;
-}
-
 ol,
 ul {
 	list-style: none;

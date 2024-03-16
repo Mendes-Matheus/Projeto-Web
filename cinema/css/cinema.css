@@ -1,9 +1,6 @@
-a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: inherit; /* Mantém a cor padrão do texto do elemento pai */
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-  
+
 h1 {
     font-size: 32px;
     font-weight: 600;
@@ -15,7 +12,6 @@ h1 {
 
 .head_text {
     color: #fff; 
-    /* filter: invert(100%); */
 }
 
 body:before {
@@ -51,7 +47,7 @@ body:before {
     padding: 10px 0px;
     font-size: 13px;
     text-align: center;
-    color: #000000;
+    color: #ffff;
     font-weight: 700;
 }
 
