@@ -9,19 +9,19 @@
     color: #ffffff;
 } */
 
-body {
-    margin: 0;
-    padding: 0;
-    background: #121212;
-    /* background-color: #121212; */
-    font-family: Montserrat, Verdana, sans-serif;
-    
+* {
+	margin: 0;
+	padding: 0;
 }
 
-/* 
-.backgroundColor {
-    background-color: #121212;
-} */
+body {
+    /* background: #121212; */
+    /* background-color: rgba(22, 15, 34, 1); */
+    /* background-color: rgb(22, 15, 34); */
+    /* background-color: #160F22; */
+    background-color: #0D0D0D;
+    font-family: 'Trebuchet MS', Montserrat, Verdana, sans-serif;
+}
 
 p {
     font-size: 15px;
@@ -45,7 +45,6 @@ h1 {
     padding: 0.5em;
 }
 
-
 body:before {
     content: "";
     position: fixed;
@@ -53,9 +52,8 @@ body:before {
     left: 0;
     right: 0;
     bottom: 0;
-    /* background: linear-gradient(to bottom, rgba(3, 3, 3, 0.829) 0%,rgba(0,0,0,0.8) 100%); */
     pointer-events: none; /* Permite que os elementos por trás sejam clicáveis */
-    z-index: -1; /* Coloca o gradiente atrás do conteúdo */
+    /* z-index: -1; Coloca o gradiente atrás do conteúdo */
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -65,7 +63,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar {
-    background-color: #000000;
+    background-color: #0a0a0a;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
@@ -152,10 +150,56 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0.5em;
 }
 
-.footer {
+/* .footer {
     padding: 2em;
     font-size: 5px;
+} */
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+.footer {
+    background-color: #101010;
+    padding: 30px 0;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.info h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    text-align: left;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
 
 .ul-navbar {
     margin-left: 3rem;

@@ -59,13 +59,41 @@
     line-height: 1.8;
 }
 
+.capa-filme {
+    height: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+.capa-filme img {
+    min-width: 100%;
+    max-height: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.3;
+    /* filter: blur(1.5px); */
+}
+
+.h1-title {
+    font-weight: 700;
+}
+
+.filme-section {
+    position: relative;
+    margin-top: -240px;
+    z-index: 1000;
+    width: 100%; /* A imagem ocupa 100% da largura da div */
+    height: auto; /* Altura ajustada automaticamente */
+    display: block; /* Isso garante que a imagem não tenha margens extras na parte inferior */
+}
+
 .h2-filme {
     font-size: 30px;
     text-align: center;
     padding-left: 1em;
 }
-
-
 
 .h3-filme {
     font-size: 25px;
